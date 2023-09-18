@@ -1,4 +1,4 @@
-package com.example.dbfileexample;
+package com.example.dbfileexample.controller;
 
 import com.example.dbfileexample.service.DbUtil;
 import org.springframework.beans.factory.annotation.Autowired;

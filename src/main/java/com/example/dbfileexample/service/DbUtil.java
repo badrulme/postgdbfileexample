@@ -25,10 +25,9 @@ public class DbUtil {
         String jsonObej = gson.toJson(employee);
 
         FileManagerEntity fileManagerEntity = new FileManagerEntity();
-        fileManagerEntity.setId(2L);
+        fileManagerEntity.setName("Badrul");
         fileManagerEntity.setTextFile("testTextFileData");
         fileManagerEntity.setXmlFile("testXmlFileData");
-
 
         fileManagerEntity.setJsonFile(jsonObej);
 
